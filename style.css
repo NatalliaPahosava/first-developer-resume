@@ -1,0 +1,117 @@
+/*
+COLOR PALETTE
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+*/
+
+/* Global styles
+------------------------------------*/
+html {
+  background-color: rgba(80, 150, 212, 0.314);
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: aliceblue;
+  color: #343434;
+  margin: 0px 400px 0px 400px;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a:hover {
+  text-decoration: none;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+}
+h1 {
+  color: blue;
+  background-color: aliceblue;
+  border-style: double;
+  border-color: aquamarine;
+  border-width: 15px;
+  font-size: 50px;
+  line-height: 1;
+  padding: 400px aquamarine;
+}
+h2 {
+  font-size: 30px;
+}
+h1,
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  margin: 0;
+}
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+/* Profile
+------------------------------------*/
+header {
+  font-family: 'Times New Roman';
+  text-align: center;
+  border: solid;
+}
+header > div > h2 {
+  text-decoration: underline;
+}
+
+/* Projects
+------------------------------------*/
+.projects {
+  background-color: aliceblue;
+  border-style: double;
+  border-color: aquamarine;
+  text-align: center;
+  border: solid;
+}
+section > div > h2 {
+  text-decoration: underline; 
+}
+h3{
+  text-decoration: underline;
+
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  text-align: center;
+  border: solid;
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background-color: aliceblue;
+  border-style: double;
+  border-color: aquamarine;
+  text-align: center;
+  border: solid;
+}
+
+/* Contact Info
+------------------------------------*/
+footer {
+  text-align: center;
+}
+.contact-list {
+  list-style: none;
+}
